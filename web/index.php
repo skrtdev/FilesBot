@@ -5,7 +5,7 @@ use skrtdev\NovaGram\Bot;
 use skrtdev\Telegram\{Message, Exception as TelegramException};
 
 $Bot = new Bot($GLOBALS["TG_BOT_TOKEN"], [
-    #"disable_ip_check" => true,
+    "disable_ip_check" => true,
     "parse_mode" => "HTML",
     "disable_notification" => true,
     "disable_web_page_preview" => true,
