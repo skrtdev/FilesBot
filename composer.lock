@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3708d3f05b0fd4d856767a6b12b480f",
+    "content-hash": "aa1e986e4daca6009ea69bb0fc5e47b8",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -202,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/skrtdev/NovaGram.git",
-                "reference": "9a148377947f8ba47d96344ae0999f76c92101b9"
+                "reference": "44b340b0fb00492d4b85c7c4b2f43720ea1b902b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skrtdev/NovaGram/zipball/9a148377947f8ba47d96344ae0999f76c92101b9",
-                "reference": "9a148377947f8ba47d96344ae0999f76c92101b9",
+                "url": "https://api.github.com/repos/skrtdev/NovaGram/zipball/44b340b0fb00492d4b85c7c4b2f43720ea1b902b",
+                "reference": "44b340b0fb00492d4b85c7c4b2f43720ea1b902b",
                 "shasum": ""
             },
             "require": {
@@ -255,7 +255,7 @@
                 "issues": "https://github.com/skrtdev/NovaGram/issues",
                 "source": "https://github.com/skrtdev/NovaGram/tree/v1.10"
             },
-            "time": "2021-04-29T14:02:23+00:00"
+            "time": "2021-05-05T16:02:13+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
