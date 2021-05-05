@@ -9,7 +9,7 @@ $Bot = new Bot($GLOBALS["TG_BOT_TOKEN"], [
     "parse_mode" => "HTML",
     "disable_notification" => true,
     "disable_web_page_preview" => true,
-    "debug" => $GLOBALS["TG_DUMP_CHANNEL_ID"],
+    "debug" => (int) $GLOBALS["TG_DUMP_CHANNEL_ID"],
 ]);
 
 $Bot->onCommand('start', function(Message $message, array $args) use ($Bot) {
